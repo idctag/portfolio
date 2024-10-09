@@ -1,5 +1,3 @@
-import CustomNavbar from "../components/CustomNavbar";
-
 export default function HomeLayout({
   children,
 }: Readonly<{
@@ -7,7 +5,7 @@ export default function HomeLayout({
 }>) {
   return (
     <div className="flex flex-col">
-      <CustomNavbar />
+      {/* <CustomNavbar /> */}
       <div>{children}</div>
     </div>
   );
