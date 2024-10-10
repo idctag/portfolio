@@ -5,7 +5,6 @@ export default function HomeLayout({
 }>) {
   return (
     <div className="flex flex-col">
-      {/* <CustomNavbar /> */}
       <div>{children}</div>
     </div>
   );
